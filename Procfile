@@ -3,4 +3,4 @@ release: python apka/manage.py makemigrations --no-input
 release: python apka/manage.py migrate --no-input
 
 
-web: gunicorn api_basic.wsgi
+web: gunicorn apka/apka.wsgi
