@@ -79,6 +79,16 @@ WSGI_APPLICATION = 'apka.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+
+   # 'default': {
+    #    'ENGINE': 'django.db.backends.postgresql',
+     #   'NAME': 'dar11v86va2tc7',
+      #  'USER': 'tivdjhquljqkzm',
+      #  'PASSWORD': 'af2839c59c51db1f27954bb443e8d5ca70cf6c0860a389597b5d8c38e3b0fb66',
+       # 'HOST': 'ec2-46-137-177-160.eu-west-1.compute.amazonaws.com',
+       # 'PORT': '5432',
+    #}
+
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
